@@ -1,3 +1,25 @@
+Project URL : https://enactonchefmattraj.vercel.app/menupage
+
+# Running the Project
+
+To run the project locally, follow these steps:
+1 Install Dependencies: Run npm install to install all required dependencies.
+2 Start the Development Server: Run npm start to start the development server. The application will be available at http://localhost:3000.
+3 Build for Production: Run npm run build to create a production build of the application.
+
+# Overview
+
+The Chef Matt website is a React-based web application designed to showcase and sell gourmet chef-quality products from the Chef Matt brand. The website features a responsive design, interactive sliders, and a subscription form for users to stay updated with the latest offers and products.
+
+# Dependencies
+
+The project uses several dependencies, including:
+• react: A JavaScript library for building user interfaces.
+• react-dom: Provides DOM-specific methods for React.
+• react-router-dom: Declarative routing for React.
+• swiper: Modern mobile touch slider.
+• tailwindcss: A utility-first CSS framework for rapid UI development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

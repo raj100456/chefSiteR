@@ -1,0 +1,19 @@
+.heroSwiper .swiper-pagination-bullet {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+.heroSwiper .swiper-pagination-bullet-active {
+  background-color: #00000000 !important;
+  border: 2px solid #ffffff !important;
+}
+.heroSwiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+@media (max-width: 768px) {
+  .heroSwiper .swiper-pagination {
+    bottom: 10px !important;
+  }
+}
