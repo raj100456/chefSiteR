@@ -69,6 +69,7 @@ function Footer() {
                 SUBSCRIBE
               </button>
             </form>
+            {message && <p className="mt-2">{message}</p>}
           </div>
         </div>
         <img className="w-full" src={subscribeImg} alt="footer" />

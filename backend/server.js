@@ -27,7 +27,11 @@ mongoose.connect(
 );
 
 const emailSchema = new mongoose.Schema({
-  email: { type: String, required: true, unique: true },
+  email: { type: String, required: true, unique: true, index: true },
+  created_at: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
 const Email = mongoose.model("Email", emailSchema);
