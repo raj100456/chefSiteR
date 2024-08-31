@@ -13,16 +13,13 @@ function Footer() {
     e.preventDefault();
     console.log({ email });
     try {
-      const response = await fetch(
-        "http://localhost:5001/subscribe || https://chefsiter.onrender.com/subscribe",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email }),
-        }
-      );
+      const response = await fetch("http://localhost:5001/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
       if (response.ok) {
         setMessage("Subscribed successfully!");
       } else {
@@ -34,7 +31,7 @@ function Footer() {
   };
 
   return (
-    <section className="w-full px-4 lg:w-[1282px] lg:ml-[150px] relative overflow-hidden bg-[#130F0C] font-poppins">
+    <section className="w-[1282px] ml-[150px] relative overflow-hidden bg-[#130F0C] font-poppins">
       <div className="w-full lg:w-[1282px] h-[401px]">
         <div className="absolute">
           <div className="mt-56 w-full lg:w-[575px] h-[57px] top-[1091px] lg:left-[795px]">

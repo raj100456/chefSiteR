@@ -27,16 +27,18 @@ const MattProductInfo = () => {
             yourself and Thank us later.
           </h3>
         </div>
-        <div className="flex absolute mt-24 ml-10">
-          <img src={aero} alt="aero" />
-          <img src={aero} alt="aero" />
-        </div>
-        <div className="w-[1100px] top-[332px] flex justify-center items-center pl-20">
-          <ChefProductSwiper />
-        </div>
-        <div className="relative w-full bottom-[215px] flex justify-end items-center -ml-40 ">
-          <img src={aeroRight} alt="aero" />
-          <img src={aeroRight} alt="aero" />
+        <div className="flex mt-24 ml-4 w-full justify-between items-center">
+          <div className="flex space-x-1 ml-14">
+            <img src={aero} alt="aero" />
+            <img src={aero} alt="aero" />
+          </div>
+          <div className="w-[1050px] flex justify-center items-center">
+            <ChefProductSwiper />
+          </div>
+          <div className="flex space-x-1 mr-14">
+            <img src={aeroRight} alt="aero" />
+            <img src={aeroRight} alt="aero" />
+          </div>
         </div>
       </div>
     </>
