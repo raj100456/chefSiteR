@@ -13,7 +13,7 @@ function Footer() {
     e.preventDefault();
     console.log({ email });
     try {
-      const response = await fetch("http://localhost:5001/subscribe", {
+      const response = await fetch("https://chefsiter.onrender.com/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
